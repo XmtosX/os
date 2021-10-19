@@ -1,0 +1,5 @@
+increase:
+we need to construct a sequence of references that consists of the same page reference. 
+
+decrease:
+we construct a sequence with distinct page references. this will result in Hit/Miss ratio of 0.
