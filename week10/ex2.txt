@@ -1,0 +1,8 @@
+XmtosX@XmtosX-desktop:~/week10$ link ../week01/file.txt _ex2.txt
+XmtosX@XmtosX-desktop:~/week10$ ls -i _ex2.txt
+2783506 _ex2.txt
+XmtosX@XmtosX-desktop:~/week10$ find -inum 2783506
+./_ex2.txt
+XmtosX@XmtosX-desktop:~/week10$ find -inum 2783506 -exec rm {} \;
+XmtosX@XmtosX-desktop:~/week10$ ls -i _ex2.txt
+ls: cannot access '_ex2.txt': No such file or directory
